@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BEST CSS WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"">
+
+    <link rel="
+        stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <style type="test/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        html, body {
+            max-width: 100%;
+            min-width: 100%;
+        
+            width: 100% !important ;
+            font-family: sans-serif;   
+        }
+        body::-webkit-scrollbar{
+            display: none;
+          }
+        
+        #navbar{
+            box-shadow: 0px 3px 40px blue!important;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .navbar{
+            background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa);
+            padding: 0 !important;  
+        }
+        .navbar-brand img{
+            height: 60px;
+            padding-left: 20px;
+        }
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+        .navbar-nav li a{
+            float: right;
+            text-align: left;
+            color: white !important;
+            font-weight: 700;
+            font-size: 15px !important;
+            text-transform: uppercase
+        }
+        .fa-bars{
+            color: white;
+            font-size: 30px !important;
+        }
+        .navbar-toggler{
+            margin-right: 30px !important;
+            outline: none !important;
+        }
+        
+        
+        /* ****************************  banner section */
+        #banner{
+            background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa);
+            color: white;
+            padding-top: 2%;
+        }
+        .promo-title{
+            font-size: 40px;
+            font-weight: 600;
+            margin-top: 100px;
+            text-transform: uppercase;
+        }
+        .play-btn{
+            width: 45px;
+            margin: 20px;
+        }
+        #banner  a{
+            color: white;
+            text-decoration: none;
+        
+        }
+        .metting-image{
+            margin-bottom: 20px !important;
+        }
+        .bottom-img{
+            width: 100%;
+        
+        }
+        
+        /* ********************  Services section */
+        #services{
+            padding: 80px 0px;
+        }
+        .services-img{
+            width: 100px;
+            margin-left: 20px;
+        }
+        .services{
+            padding: 20px;
+        }
+        .services h4{
+            padding: 5px;
+            margin-top: 25px;
+            text-transform: uppercase;
+        }
+        .title::before{
+            content: '';
+            background: #3160fa;
+            height: 5px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transform: translateY(63px );
+            
+        }
+        .title::after{
+            content: '';
+            background: #0004ffc4;
+            height: 10px;
+            width: 50px;
+            margin-left: auto;
+            margin-bottom: 40px;
+            margin-right: auto;
+            display: block;
+            transform: translateY(7.5px );
+        }
+        .btn-primary{
+            text-align: center; 
+            box-shadow: none;
+            padding: 8px 25px;
+            border:  none;
+            border-radius: 20px;
+            background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa);   
+        }
+        
+        
+        
+        /* *************about-us section */
+        #about-us{
+            background: #f8f9fa;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        
+        }
+        #about-us ul li{
+            margin: 10px 0;
+        }
+        #about-us ul{
+             margin-left: 25%;
+        }
+        
+        .about-title{
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 8% ;
+        }
+        
+        
+        /* ************** Testimonials sections  *****************************/
+        #testimonials{
+            margin: 50px 0;
+        
+        
+        }
+        .tedtimonials{
+            border-left: 4px  solid #5557fc;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        
+        }
+        .tedtimonials img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            margin: 0px 10px;
+        }
+        .user-details{
+            display: inline-block;
+            font-size: 12px;
+        }
+        
+        /* *********************** social-media ************* */
+        #social-media{
+            background-color: #f8f9fa;
+            padding: 100px 0;
+        
+        }
+        #social-media p{
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        
+        .social-icons img{
+            height: 40px;
+            transition: 0.7s;
+            margin: 10px 10px; 
+            width: 50px;
+        }
+        
+        .social-icons:last-child a:hover img{
+            transform: translateY(-10px)   
+        }
+        
+        /* ----------FOOTER Sections */
+        #footer{
+            background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa);
+            color: white;
+        }
+        .footer-img{
+            width: 100%;  
+            transform: rotate(180deg);
+            height: 100px;
+        }
+        .footer-box{
+            padding: 20px;
+        }
+        .footer-box img{
+            width: 120px;
+            margin: 20px;
+        }
+        .m-l-5{
+            margin-left: 5px;
+        }
+        .footer-box .fa{
+            margin-right: 8px;
+            font-size: 25px;
+            height: 40px;
+            width: 50px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 2px;
+            /* background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa); */
+        }
+        .footer-box span{
+            text-align: left;
+            
+        }
+        
+        .footer-box .form-control{
+                box-shadow: none !important;
+                border: none;
+                border-radius: 0;
+                margin-top: 25px;
+                max-width: 250px ;
+        }
+        
+        .footer-box .btn-primary{
+            box-shadow: none !important;
+            border: none;
+            border-radius: 1;
+            margin-top: 30px;
+            padding: 10px 15px !important;
+            background-image: linear-gradient(to right, rgb(76, 146, 252), #3134fa);
+        }
+        
+        
+       </style>
+        
+        
+        
+</head>
+
+<body>
+
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+                <img src="images/download.png" alt="Vikas">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TESTIMONIALS</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- ---------------------- banner section----------------------------------- -->
+
+    <section id="banner">
+        <div class="container  text-center">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <p class="promo-title">Best website designe</p>
+                    <p>Buid a website design, web development, front-end development, web-hosting and web security.</p>
+
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/play-youtube.png" alt="" class="play-btn">
+                    </a>
+                    WATCH VIDEO ON YOUTBE.
+                </div>
+                <div class="col-md-6 text-center metting-image">
+                    <img src="images/metting2.jpg" height="100%" width="100%" alt="" class="img-flud ">
+                </div>
+            </div>
+        </div>
+        <img src="images/wawe-sample.png" height="100" class="bottom-img" alt="">
+    </section>
+
+    <!-- ----------------------------  Services sections -->
+    <section id="services">
+        <div class="container text-center">
+
+            <h1 class="title">WHAT WE DO?</h1>
+
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <img src="images/metting2.jpg" alt="" class="services-img">
+                    <h4>Growth Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nihil excepturi sunt labore
+                        perferendis dolorem eius nesciunt vero distinctio, ipsa quae. Aperiam temporibus nostrum fuga
+                        deleniti magnam facilis, neque voluptatem dolore dolores quo aliquam, sapiente nihil et sunt
+                        nobis dolorem minima quibusdam esse corporis doloribus aliquid quisquam a? Maiores!</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="images/metting2.jpg" alt="" class="services-img">
+                    <h4>Growth Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nihil excepturi sunt labore
+                        perferendis dolorem eius nesciunt vero distinctio, ipsa quae. Aperiam temporibus nostrum fuga
+                        deleniti magnam facilis, neque voluptatem dolore dolores quo aliquam, sapiente nihil et sunt
+                        nobis dolorem minima quibusdam esse corporis doloribus aliquid quisquam a? Maiores!</p>
+
+                </div>
+                <div class="col-md-4 services">
+                    <img src="images/metting2.jpg" alt="" class="services-img">
+                    <h4>Growth Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsum nihil excepturi sunt labore
+                        perferendis dolorem eius nesciunt vero distinctio, ipsa quae. Aperiam temporibus nostrum fuga
+                        deleniti magnam facilis, neque voluptatem dolore dolores quo aliquam, sapiente nihil et sunt
+                        nobis dolorem minima quibusdam esse corporis doloribus aliquid quisquam a? Maiores!</p>
+
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">
+                ALL SERVICES
+
+            </button>
+        </div>
+    </section>
+
+    <!-- -------------------- About us     -->
+
+    <section id="about-us">
+        <div class="container text-center">
+            <h1 class="title">
+                WHY CHOOSE US?
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 about-us">
+                <p class="about-title text-center">
+                    WHY WE ARE DEFFERENT</p>
+                <ul class="">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/metting2.jpg" alt="" height="80%" width="80%" class="img-flud">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h1 class="container">
+            <div class="title text-center">What CLENT SAY</div>
+        </h1>
+
+        <div class="row offset-1">
+
+            <div class="col-md-6 tedtimonials">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi quae quaerat corrupti, sed blanditiis ad ratione placeat culpa deserunt hic?
+                </p>
+                <img src="images/user11.jfif" alt="">
+                <p class="user-details">
+                    <b>
+                        TEST USER
+                    </b>
+                    <br>
+                    Co-founder by nonainfotech.
+                </p>
+            </div>
+
+            <div class="col-md-5 tedtimonials">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi quae quaerat corrupti, sed blanditiis ad ratione placeat culpa deserunt hic?
+                </p>
+                <img src="images/user55.jfif" alt="">
+                <p class="user-details">
+                    <b> TECH PROGRAMMER </b>
+                    <br>
+                    Co-founder by somanthakInfotech.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ---------------SOCIAL MEDIA SECTION -->
+    <section id="social-media">
+        <div class="container text-center">
+            <p>FIND ME ON SOCIAL MEDIA.</p>
+            <div class="social-icons">
+                <a href="https://is.gd/YWhfM3">
+                    <img src="images/social-icons/facebook.png" alt="">
+                </a>
+                <a href="https://is.gd/4v1JG4">
+                    <img src="images/social-icons/instagram.png" alt="">
+                </a>
+                <a href="https://is.gd/bJkNFT">
+                    <img src="images/social-icons/linkedin-button-logo.png" alt="">
+                </a>
+                <!-- <a href="">
+                    <img src="images/social-icons/whatsapp.png" alt="">
+                </a> -->
+                <a href="">
+                    <img src="images/social-icons/youtube.png" alt="">
+                </a>
+                </a>
+                <a href="">
+                    <img src="images/social-icons/tweeter.png" alt="">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ---------Footer section -->
+    <section id="footer">
+        <img src="images/wawe-sample - Copy.png" alt="" class="footer-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="images/download.png" alt="Vikas">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ab dolores quas provident, in
+                        quasi!
+                    </p>
+                </div>
+
+
+                <div class="col-md-4 footer-box">
+                    <p><b>Contact Me.</b></p>
+                    <div>Vikas Ukani.</div>
+                    <i class="fa fa-envelope o"></i><span class="m-l-5">vikasukani5@gmail.com </span> <br />
+                    <i class="fa fa-phone"></i> 9909659030
+                    <address>
+                        <i class="fa fa-map-marker"></i>
+                        Saragam Soc. ,<br />
+                        Punagam, Surat,<br />
+                        Gujarat.
+                    </address>
+                </div>
+
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input type="email" name="" id="" placeholder="You Email" class="form-control">
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
